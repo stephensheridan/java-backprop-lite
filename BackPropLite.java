@@ -3,6 +3,7 @@
 
 public class BackPropLite {
 	
+	// The Network
 	private static double input_layer[];
 	private static double hidden_layer[];
 	private static double output_layer[];
@@ -121,7 +122,6 @@ public class BackPropLite {
 		input_layer = new double[NUM_INPUT + 1];	// +1 for BIAS
 		hidden_layer = new double[NUM_HIDDEN + 1];	// +1 for BIAS
 		output_layer = new double[NUM_OUTPUT];
-		
 		hidden_layer_error = new double[NUM_HIDDEN];
 		output_layer_error = new double[NUM_OUTPUT];
 		
